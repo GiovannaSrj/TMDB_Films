@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Source+Code+Pro:wght@200..900&display=swap");
+
+* {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  display: block;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  position: fixed;
+  background-color: rgb(3, 37, 65);
+}
+
+.display_nav {
+  display: flex;
+  align-items: center;
+  height: 64px;
+}
+
+.nav_names {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow: visible;
+  align-items: center;
+  height: 64px;
+}
+.logo {
+  margin-left: 20px;
+  width: 154px;
+  height: 20px;
+}
+
+ul.list_itens {
+  display: flex;
+
+  align-items: center;
+}
+
+.list_itens > li {
+  list-style: none;
+}
+
+.list_itens > li > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav_icons {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  overflow: visible;
+  align-items: center;
+}
+
+ main{
+ margin-top: 64px;
+
+ }
+
+ main > h1{
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-left: 50px;
+  padding: 20px 0px 0px 0px;
+
+ }
