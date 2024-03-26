@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <header>
-        <div className="display_nav">
           <div className="nav_names">
             <a href="#">
               <img
@@ -35,10 +34,10 @@ function App() {
           <div className="nav_icons">
             <ul className="list_itens">
               <li>
-                <a href="#">+</a>
+                <a href="#" id="more"></a>
               </li>
               <li>
-                <a href="#">EN</a>
+                <a href="#" className="en">EN</a>
               </li>
               <li>
                 <a href="#">Login</a>
@@ -47,13 +46,12 @@ function App() {
                 <a href="#">Join TMDB</a>
               </li>
               <li>
-                <img src="../assets/search.svg" alt="" />
+                <a href="#" id="search"></a>
               </li>
             </ul>
           </div>
-        </div>
       </header>
-      
+
       <main>
         <h1>Popular Movies</h1>
         <ListMovies />
